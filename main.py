@@ -19,8 +19,6 @@ from others.variables import BADGE_NAMES
 from others.variables import owner_id
 from others.variables import support_ids
 from others.variables import developer_ids
-from keep_alive import keep_alive
-keep_alive()
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix=commands.when_mentioned_or("?"), intents=intents)
