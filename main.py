@@ -952,7 +952,7 @@ async def set_reminder(interaction: discord.Interaction, delay: int, *, message:
     except Exception as e:
         print(f"An error occurred: {e}")
         
+TOKEN = os.environ.get('TOKEN')       
         
-        
-bot.run("MTE5OTE4MzQ4NjE0NjMyMjUwMw.G5ABw5.OwN_9hgdIa7alQSkrPBDXRrNu12Q1oEPAyULMo")
+bot.run(TOKEN)
 
